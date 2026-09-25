@@ -51,7 +51,7 @@ footer strong{color:#9fb3c8}
 </div>
 <main>
 <div class="note">💡 Demo-ja live ekzekutohet direkt në browser. Kliko <strong>Kodi Burim</strong> për të parë kodin e plotë — si të demos (<strong>demo/</strong>), ashtu edhe origjinalin e paprekur (<strong>original/</strong>).</div>
-<div id="p-demo" class="panel active"><iframe class="demo" src="demo/Tasty [ Template et hacking ]/index.html" title="Live demo"></iframe></div>
+<div id="p-demo" class="panel active"><iframe class="demo" src="demo/tasty/index.html" title="Live demo"></iframe></div>
 <div id="p-code" class="panel"><div class="codewrap">
 <aside class="tree" id="tree"></aside>
 <div class="codeview"><div class="cbar" id="cbar"></div><div id="codebox"><pre></pre></div></div>
@@ -59,7 +59,7 @@ footer strong{color:#9fb3c8}
 </main>
 <footer>Krijuar nga <strong>Erion Nezha</strong> — © 2026 · Të gjitha të drejtat e rezervuara / All rights reserved</footer>
 <script>
-const TREE={"dirs":[{"name":"demo","dirs":[{"name":"Tasty [ Template et hacking ]","dirs":[{"name":"assets","dirs":[{"name":"css","dirs":[],"files":["styles.css"]},{"name":"img","dirs":[],"files":["about.jpg","app1.png","app2.png","dish.svg","home.png","movil-app.png","pizza.svg","plate1.png","plate2.png","plate3.png","truck.svg"]},{"name":"js","dirs":[],"files":["main.js"]},{"name":"scss","dirs":[],"files":["styles.scss"]}],"files":[]}],"files":["index.html"]}],"files":[]},{"name":"original","dirs":[{"name":"Tasty [ Template et hacking]","dirs":[{"name":"Tasty [ Template et hacking ]","dirs":[{"name":"assets","dirs":[{"name":"css","dirs":[],"files":["styles.css"]},{"name":"img","dirs":[],"files":["about.jpg","app1.png","app2.png","dish.svg","home.png","movil-app.png","pizza.svg","plate1.png","plate2.png","plate3.png","truck.svg"]},{"name":"js","dirs":[],"files":["main.js"]},{"name":"scss","dirs":[],"files":["styles.scss"]}],"files":[]}],"files":["index.html"]}],"files":[]}],"files":[]}],"files":[]};
+const TREE={"dirs":[{"name":"demo","dirs":[{"name":"tasty","dirs":[{"name":"assets","dirs":[{"name":"css","dirs":[],"files":["styles.css"]},{"name":"img","dirs":[],"files":["about.jpg","app1.png","app2.png","dish.svg","home.png","movil-app.png","pizza.svg","plate1.png","plate2.png","plate3.png","truck.svg"]},{"name":"js","dirs":[],"files":["main.js"]},{"name":"scss","dirs":[],"files":["styles.scss"]}],"files":[]}],"files":["index.html"]}],"files":[]},{"name":"original","dirs":[{"name":"Tasty [ Template et hacking]","dirs":[{"name":"tasty","dirs":[{"name":"assets","dirs":[{"name":"css","dirs":[],"files":["styles.css"]},{"name":"img","dirs":[],"files":["about.jpg","app1.png","app2.png","dish.svg","home.png","movil-app.png","pizza.svg","plate1.png","plate2.png","plate3.png","truck.svg"]},{"name":"js","dirs":[],"files":["main.js"]},{"name":"scss","dirs":[],"files":["styles.scss"]}],"files":[]}],"files":["index.html"]}],"files":[]}],"files":[]}],"files":[]};
 function show(id,btn){document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));document.getElementById('p-'+id).classList.add('active');document.querySelectorAll('.tabs button').forEach(b=>b.classList.remove('active'));btn.classList.add('active');}
 const BINRE=/\.(png|jpe?g|gif|svg|ico|exe|class|o|jar|dat|ogg|mp3|wav|ttf|woff2?|eot|pdf|zip|rar|db|sqlite)$/i;
 function escAttr(s){return s.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;');}
